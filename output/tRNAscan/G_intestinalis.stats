@@ -1,0 +1,84 @@
+
+tRNAscan-SE v.2.0.12 (Nov 2022) scan results (on host Batuhan-MacBook-Air-2.local)
+Started: Mon Feb 12 03:30:09 +03 2024
+
+------------------------------------------------------------
+Sequence file(s) to search:        resource/genome/G_intestinalis.fasta
+Search Mode:                       Eukaryotic
+Results written to:                output/G_intestinalis.tRNA
+Output format:                     Tabular
+Searching with:                    Infernal First Pass->Infernal
+Isotype-specific model scan:       Yes
+Covariance model:                  /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/102c35ea3392f7631ffbfc04ca261d51_/lib/tRNAscan-SE/models/TRNAinf-euk.cm
+                                   /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/102c35ea3392f7631ffbfc04ca261d51_/lib/tRNAscan-SE/models/TRNAinf-euk-SeC.cm
+Infernal first pass cutoff score:  10
+
+Temporary directory:               /var/folders/f8/3vl28q_56bq2vp55bjx5r2zr0000gn/T
+Search statistics saved in:        output/G_intestinalis.stats
+------------------------------------------------------------
+
+First-pass Stats:
+---------------
+Sequences read:         35
+Seqs w/at least 1 hit:  7
+Bases read:             12078186 (x2 for both strands)
+Bases in tRNAs:         18046
+tRNAs predicted:        223
+Av. tRNA length:        80
+Script CPU time:        0.22 s
+Scan CPU time:          22.72 s
+Scan speed:             1063.2 Kbp/sec
+
+First pass search(es) ended: Mon Feb 12 03:30:17 +03 2024
+
+Infernal Stats:
+-----------
+Candidate tRNAs read:     223
+Infernal-confirmed tRNAs:     220
+Bases scanned by Infernal:  22506
+% seq scanned by Infernal:  0.1 %
+Script CPU time:          0.20 s
+Infernal CPU time:            34.03 s
+Scan speed:               661.4 bp/sec
+
+Infernal analysis of tRNAs ended: Mon Feb 12 03:30:46 +03 2024
+
+Overall scan speed: 422535.8 bp/sec
+
+tRNAs decoding Standard 20 AA:              65
+Selenocysteine tRNAs (TCA):                 0
+Possible suppressor tRNAs (CTA,TTA,TCA):    0
+tRNAs with undetermined/unknown isotypes:   0
+Predicted pseudogenes:                      155
+                                            -------
+Total tRNAs:                                220
+
+tRNAs with introns:     	3
+
+| Ser-TGA: 2 | Tyr-GTA: 1 |
+
+Isotype / Anticodon Counts:
+
+Ala     : 4	  AGC: 2       GGC:         CGC: 1       TGC: 1     
+Gly     : 4	  ACC:         GCC: 2       CCC: 1       TCC: 1     
+Pro     : 3	  AGG: 1       GGG:         CGG: 1       TGG: 1     
+Thr     : 3	  AGT: 1       GGT:         CGT: 1       TGT: 1     
+Val     : 4	  AAC:         GAC: 2       CAC: 1       TAC: 1     
+Ser     : 6	  AGA: 1       GGA:         CGA: 1       TGA: 3       ACT:         GCT: 1     
+Arg     : 6	  ACG: 2       GCG:         CCG: 1       TCG: 1       CCT: 1       TCT: 1     
+Leu     : 6	  AAG: 2       GAG:         CAG: 1       TAG: 1       CAA: 1       TAA: 1     
+Phe     : 1	  AAA:         GAA: 1                               
+Asn     : 2	  ATT:         GTT: 2                               
+Lys     : 3	                            CTT: 2       TTT: 1     
+Asp     : 3	  ATC:         GTC: 3                               
+Glu     : 3	                            CTC: 2       TTC: 1     
+His     : 1	  ATG:         GTG: 1                               
+Gln     : 4	                            CTG: 1       TTG: 3     
+Ile     : 161	  AAT:         GAT: 160     CAT:         TAT: 1     
+Met     : 3	                            CAT: 3                  
+Tyr     : 1	  ATA:         GTA: 1                               
+Supres  : 0	               CTA:         TTA:         TCA:       
+Cys     : 1	  ACA:         GCA: 1                               
+Trp     : 1	                            CCA: 1                  
+SelCys  : 0	                                         TCA:       
+

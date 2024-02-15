@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	blastn
+	3
+
+rule blastn:
+    input: resources/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+    jobid: 1
+    wildcards: type=blastn, db=G_intestinalis, query=S_salmonicida
+
+/Users/grkmrz/anaconda3/envs/blast/bin/python /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/scripts/.snakemake.t_d0rpbe.blastn.py
+Activating conda environment /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4.
+Error in rule blastn:
+    jobid: 1
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+
+RuleException:
+CalledProcessError in line 69 of /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/Snakefile:
+Command 'source activate /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4; set -euo pipefail;  /Users/grkmrz/anaconda3/envs/blast/bin/python /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/scripts/.snakemake.t_d0rpbe.blastn.py ' returned non-zero exit status 1.
+  File "/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/Snakefile", line 69, in __rule_blastn
+  File "/Users/grkmrz/anaconda3/envs/blast/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/log/2024-02-12T124619.158387.snakemake.log

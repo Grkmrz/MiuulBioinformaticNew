@@ -1,0 +1,13 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules tRNAscan_stats and tRNAscan are ambiguous for the file output/G_intestinalis.tRNA.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	tRNAscan_stats: 
+	tRNAscan: 
+Expected input files:
+	tRNAscan_stats: resource/genome/G_intestinalis.fasta
+	tRNAscan: resource/genome/G_intestinalis.fasta
+Expected output files:
+	tRNAscan_stats: output/G_intestinalis.tRNA output/G_intestinalis.stats
+	tRNAscan: output/G_intestinalis.tRNA

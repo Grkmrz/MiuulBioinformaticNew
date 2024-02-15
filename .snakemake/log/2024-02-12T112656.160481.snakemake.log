@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule blastn in file /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/Snakefile, line 52:
+Missing input files for rule blastn:
+    output: output/blastn/G_intestinalis/G_muris.blastn
+    wildcards: type=blastn, db=G_intestinalis, query=G_muris
+    affected files:
+        resources/blastn/query/G_muris.fasta
+        output/blastn/G_intestinalis.ndb

@@ -1,0 +1,7 @@
+ name: MiuulBioinformaticNew
+ channels:
+   - bioconda
+   - conda-forge
+   - nanoporetech
+dependencies:
+  - trnascan-se

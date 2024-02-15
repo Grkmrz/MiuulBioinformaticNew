@@ -1,0 +1,7 @@
+==> 2024-02-12 03:30:07 <==
+# cmd: /Users/grkmrz/anaconda3/condabin/mamba create --quiet --file /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/102c35ea3392f7631ffbfc04ca261d51_.yaml --prefix /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/102c35ea3392f7631ffbfc04ca261d51_
+# conda version: 23.11.0
++conda-forge/osx-arm64::perl-5.32.1-7_h4614cfb_perl5
++nanoporetech/osx-arm64::infernal-1.1.4+neon-h8a0c2ca_1
++nanoporetech/osx-arm64::trnascan-se-2.0.12-pl5321h8a0c2ca_0
+# update specs: ['trnascan-se']

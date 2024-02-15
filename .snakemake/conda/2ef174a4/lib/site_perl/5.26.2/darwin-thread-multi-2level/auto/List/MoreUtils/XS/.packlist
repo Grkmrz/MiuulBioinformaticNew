@@ -1,0 +1,3 @@
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/lib/site_perl/5.26.2/darwin-thread-multi-2level/List/MoreUtils/XS.pm relocate_as=../../../../List/MoreUtils/XS.pm
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/List/MoreUtils/XS/XS.bundle relocate_as=XS.bundle
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/man/man3/List::MoreUtils::XS.3 relocate_as=../../../../../../../../man/man3/List::MoreUtils::XS.3

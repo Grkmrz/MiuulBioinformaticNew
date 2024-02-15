@@ -1,0 +1,132 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/env/env.yaml:
+Command:
+mamba env create --quiet --file "/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/cb45ff8d98ac58c5c11e9027e661850e_.yaml" --prefix "/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/cb45ff8d98ac58c5c11e9027e661850e_"
+Output:
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda/exception_handler.py", line 17, in __call__
+        return func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda_env/cli/main.py", line 56, in do_call
+        exit_code = getattr(module, func_name)(arguments, parser)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda/notices/core.py", line 124, in wrapper
+        return func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda_env/cli/main_create.py", line 107, in execute
+        spec = specs.detect(
+               ^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda_env/specs/__init__.py", line 72, in detect
+        if spec.can_handle():
+           ^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda_env/specs/yaml_file.py", line 19, in can_handle
+        self._environment = env.from_file(self.filename)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda_env/env.py", line 191, in from_file
+        return from_yaml(yamlstr, filename=filename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda_env/env.py", line 158, in from_yaml
+        data = yaml_safe_load(yamlstr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/conda/common/serialize.py", line 45, in yaml_safe_load
+        return _yaml_safe().load(string)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/ruamel/yaml/main.py", line 434, in load
+        return constructor.get_single_data()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/ruamel/yaml/constructor.py", line 119, in get_single_data
+        node = self.composer.get_single_node()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/grkmrz/anaconda3/lib/python3.11/site-packages/ruamel/yaml/composer.py", line 81, in get_single_node
+        raise ComposerError(
+    ruamel.yaml.composer.ComposerError: expected a single document in the stream
+      in "<unicode string>", line 1, column 2:
+         name: MiuulBioinformaticNew
+         ^ (line: 1)
+    but found another document
+      in "<unicode string>", line 6, column 1:
+        dependencies:
+        ^ (line: 6)
+
+`$ /Users/grkmrz/anaconda3/condabin/mamba create --quiet --file /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/cb45ff8d98ac58c5c11e9027e661850e_.yaml --prefix /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/cb45ff8d98ac58c5c11e9027e661850e_`
+
+  environment variables:
+                 CIO_TEST=<not set>
+  CONDA_AUTO_UPDATE_CONDA=false
+        CONDA_DEFAULT_ENV=snakemake
+                CONDA_EXE=/Users/grkmrz/anaconda3/bin/conda
+             CONDA_PREFIX=/Users/grkmrz/anaconda3/envs/snakemake
+           CONDA_PREFIX_1=/Users/grkmrz/anaconda3
+           CONDA_PREFIX_2=/Users/grkmrz/anaconda3/envs/miuul
+           CONDA_PREFIX_3=/Users/grkmrz/anaconda3/envs/snakemake
+           CONDA_PREFIX_4=/Users/grkmrz/anaconda3/envs/trnascan
+    CONDA_PROMPT_MODIFIER=(snakemake)
+         CONDA_PYTHON_EXE=/Users/grkmrz/anaconda3/bin/python
+               CONDA_ROOT=/Users/grkmrz/anaconda3
+              CONDA_SHLVL=5
+           CURL_CA_BUNDLE=<not set>
+               LD_PRELOAD=<not set>
+                     PATH=/Users/grkmrz/anaconda3/envs/snakemake/bin:/Users/grkmrz/anaconda3/con
+                          dabin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/loca
+                          l/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var
+                          /run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:
+                          /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/v
+                          ar/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleint
+                          ernal/bin
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+
+     active environment : snakemake
+    active env location : /Users/grkmrz/anaconda3/envs/snakemake
+            shell level : 5
+       user config file : /Users/grkmrz/.condarc
+ populated config files : /Users/grkmrz/.condarc
+          conda version : 23.11.0
+    conda-build version : 24.1.1
+         python version : 3.11.7.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=m2
+                          __conda=23.11.0=0
+                          __osx=13.4=0
+                          __unix=0=0
+       base environment : /Users/grkmrz/anaconda3  (writable)
+      conda av data dir : /Users/grkmrz/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/osx-arm64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://conda.anaconda.org/bioconda/osx-arm64
+                          https://conda.anaconda.org/bioconda/noarch
+                          https://repo.anaconda.com/pkgs/main/osx-arm64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/osx-arm64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /Users/grkmrz/anaconda3/pkgs
+                          /Users/grkmrz/.conda/pkgs
+       envs directories : /Users/grkmrz/anaconda3/envs
+                          /Users/grkmrz/.conda/envs
+               platform : osx-arm64
+             user-agent : conda/23.11.0 requests/2.31.0 CPython/3.11.7 Darwin/22.5.0 OSX/13.4 solver/libmamba conda-libmamba-solver/24.1.0 libmambapy/1.5.6 aau/0.4.3 c/dZu4L51XtJ-EttWd4d8vFA s/2DvOipBfu1kdnq7ocNbIow e/l3wUuB6ICaBM5EuhJ-Gezw
+                UID:GID : 501:20
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+If you suspect this error is being caused by a malfunctioning plugin,
+consider using the --no-plugins option to turn off plugins.
+
+Example: conda --no-plugins install <package>
+
+Alternatively, you can set the CONDA_NO_PLUGINS environment variable on
+the command line to run the command without plugins enabled.
+
+Example: CONDA_NO_PLUGINS=true conda install <package>
+
+

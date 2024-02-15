@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+Environment for /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/env/env.yaml created (location: .snakemake/conda/102c35ea3392f7631ffbfc04ca261d51_)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+tRNAscan_stats        1
+total                 2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb 12 03:30:07 2024]
+localrule tRNAscan_stats:
+    input: resource/genome/G_intestinalis.fasta
+    output: output/G_intestinalis.tRNA, output/G_intestinalis.stats
+    jobid: 2
+    reason: Missing output files: output/G_intestinalis.tRNA
+    resources: tmpdir=/var/folders/f8/3vl28q_56bq2vp55bjx5r2zr0000gn/T
+
+Activating conda environment: .snakemake/conda/102c35ea3392f7631ffbfc04ca261d51_
+[Mon Feb 12 03:30:47 2024]
+Finished job 2.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb 12 03:30:47 2024]
+localrule all:
+    input: output/G_intestinalis.txt, output/G_intestinalis.tRNA
+    jobid: 0
+    reason: Input files updated by another job: output/G_intestinalis.tRNA
+    resources: tmpdir=/var/folders/f8/3vl28q_56bq2vp55bjx5r2zr0000gn/T
+
+[Mon Feb 12 03:30:47 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-02-12T032951.845513.snakemake.log

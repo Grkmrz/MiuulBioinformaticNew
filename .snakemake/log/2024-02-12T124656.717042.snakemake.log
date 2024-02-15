@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Provided cluster nodes: 1
+Job counts:
+	count	jobs
+	1	all
+	2	blastn
+	3
+
+rule blastn:
+    input: resources/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+    jobid: 2
+    wildcards: type=blastn, db=G_intestinalis, query=S_salmonicida
+
+Error submitting jobscript (exit code 127):
+
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/log/2024-02-12T124656.717042.snakemake.log

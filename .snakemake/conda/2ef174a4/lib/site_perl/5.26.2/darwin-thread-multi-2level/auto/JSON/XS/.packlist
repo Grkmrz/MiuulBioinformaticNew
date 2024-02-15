@@ -1,0 +1,7 @@
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/bin/json_xs relocate_as=../../../../../../../bin/json_xs
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/lib/site_perl/5.26.2/darwin-thread-multi-2level/JSON/XS.pm relocate_as=../../../JSON/XS.pm
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/lib/site_perl/5.26.2/darwin-thread-multi-2level/JSON/XS/Boolean.pm relocate_as=../../../JSON/XS/Boolean.pm
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/JSON/XS/XS.bundle relocate_as=XS.bundle
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/man/man1/json_xs.1 relocate_as=../../../../../../../man/man1/json_xs.1
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/man/man3/JSON::XS.3 relocate_as=../../../../../../../man/man3/JSON::XS.3
+/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4/man/man3/JSON::XS::Boolean.3 relocate_as=../../../../../../../man/man3/JSON::XS::Boolean.3

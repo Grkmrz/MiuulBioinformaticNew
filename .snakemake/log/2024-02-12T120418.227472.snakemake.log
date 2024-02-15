@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/env/env.yaml:
+Command:
+mamba env create --quiet --file "/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4cbccd4ca22cf675dd1d688b6_.yaml" --prefix "/Users/grkmrz/PycharmProjects/MiuulBioinformaticNew/.snakemake/conda/2ef174a4cbccd4ca22cf675dd1d688b6_"
+Output:
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/57e79ec4.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/2a957770.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/a850f475.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/09cdf8bf.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/9e99ffaf.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/3e39a7aa.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/8bd55712.json" was modified by another program
+warning  libmamba Cache file "/Users/grkmrz/anaconda3/pkgs/cache/4ea078d6.json" was modified by another program
+Could not solve for environment specs
+The following package could not be installed
+└─ blast does not exist (perhaps a typo or a missing channel).
+

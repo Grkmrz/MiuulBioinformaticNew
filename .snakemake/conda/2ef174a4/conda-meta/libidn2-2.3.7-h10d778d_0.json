@@ -1,0 +1,75 @@
+{
+  "build": "h10d778d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "gettext >=0.21.1,<1.0a0",
+    "libunistring >=0,<1.0a0"
+  ],
+  "extracted_package_dir": "/Users/grkmrz/anaconda3/pkgs/libidn2-2.3.7-h10d778d_0",
+  "files": [
+    "bin/idn2",
+    "include/idn2.h",
+    "lib/libidn2.0.dylib",
+    "lib/libidn2.dylib",
+    "lib/pkgconfig/libidn2.pc"
+  ],
+  "fn": "libidn2-2.3.7-h10d778d_0.conda",
+  "license": "LGPLv2",
+  "link": {
+    "source": "/Users/grkmrz/anaconda3/pkgs/libidn2-2.3.7-h10d778d_0",
+    "type": 1
+  },
+  "md5": "a985867eae03167666bba45c2a297da1",
+  "name": "libidn2",
+  "package_tarball_full_path": "/Users/grkmrz/anaconda3/pkgs/libidn2-2.3.7-h10d778d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/idn2",
+        "path_type": "hardlink",
+        "sha256": "6e7386224c1237b4a5cf18047273eb6c64fe1a7c8dae055dcd740a55d5276ec0",
+        "sha256_in_prefix": "6e7386224c1237b4a5cf18047273eb6c64fe1a7c8dae055dcd740a55d5276ec0",
+        "size_in_bytes": 33832
+      },
+      {
+        "_path": "include/idn2.h",
+        "path_type": "hardlink",
+        "sha256": "d016be899d46893e043f9fc8439fffdc98aae80b307e119f0e8bfe9628d77be2",
+        "sha256_in_prefix": "d016be899d46893e043f9fc8439fffdc98aae80b307e119f0e8bfe9628d77be2",
+        "size_in_bytes": 14191
+      },
+      {
+        "_path": "lib/libidn2.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "004a7b0f857f3bc6cb4d90462a81fba0363e64e62677112537ca46489a6f26ff",
+        "sha256_in_prefix": "004a7b0f857f3bc6cb4d90462a81fba0363e64e62677112537ca46489a6f26ff",
+        "size_in_bytes": 365880
+      },
+      {
+        "_path": "lib/libidn2.dylib",
+        "path_type": "softlink",
+        "sha256": "004a7b0f857f3bc6cb4d90462a81fba0363e64e62677112537ca46489a6f26ff",
+        "size_in_bytes": 365880
+      },
+      {
+        "_path": "lib/pkgconfig/libidn2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libidn2_1706368028356/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "cef3efc31e5de3a09618bce5e516785d81829b29469ade2db71db4b75c0d58a3",
+        "sha256_in_prefix": "db794c75933a0a4edd2374e9bcf57ffb9d7d6bcd9354d1b06003367faa3a7ef0",
+        "size_in_bytes": 1553
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "54430e45dffa8cbe3cbf12a3f4376947e7e2d50c67db90a90e91c3350510823e",
+  "size": 133237,
+  "subdir": "osx-64",
+  "timestamp": 1706368325000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libidn2-2.3.7-h10d778d_0.conda",
+  "version": "2.3.7"
+}
